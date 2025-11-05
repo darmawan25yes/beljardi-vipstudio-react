@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+.cls-1 {
+  fill: #fff;
+  font-family: BrushScriptStd, "Brush Script Std";
+  font-size: 65.56px;
+}
+
+.cls-2 {
+  fill: #e49f24;
+}
+
+.cls-3 {
+  fill: #0f8341;
+}
