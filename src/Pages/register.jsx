@@ -6,13 +6,6 @@ const RegisterPage = () => {
     <div>
       <AutLayout title="Register">
         <FormRegister />
-        <p className="font-medium text-sm text-slate-500 text-center py-2">
-          {" "}
-          Have account?{" "}
-          <Link to="/login" className="text-blue-700">
-            Login
-          </Link>
-        </p>
       </AutLayout>
     </div>
   );
