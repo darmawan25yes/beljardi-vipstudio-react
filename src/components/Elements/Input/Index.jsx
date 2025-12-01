@@ -1,6 +1,7 @@
+import { forwardRef } from "react";
 import Input from "./Input";
 import Label from "./Label";
-const InputForm = (props) => {
+const InputForm = forwardRef((props, ref) => {
   const { type, placeholder, name, label, autoComplete, id } = props;
   return (
     <div className="mb-6">
@@ -11,8 +12,9 @@ const InputForm = (props) => {
         placeholder={placeholder}
         autoComplete={autoComplete}
         id={id}
+        ref={ref}
       ></Input>
     </div>
   );
-};
+});
 export default InputForm;
